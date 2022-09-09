@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/url-shortening-api/static/css/main.16874204.chunk.css",
+    "main.js": "/url-shortening-api/static/js/main.4ff53768.chunk.js",
+    "main.js.map": "/url-shortening-api/static/js/main.4ff53768.chunk.js.map",
+    "runtime-main.js": "/url-shortening-api/static/js/runtime-main.1769030a.js",
+    "runtime-main.js.map": "/url-shortening-api/static/js/runtime-main.1769030a.js.map",
+    "static/js/2.c216de7f.chunk.js": "/url-shortening-api/static/js/2.c216de7f.chunk.js",
+    "static/js/2.c216de7f.chunk.js.map": "/url-shortening-api/static/js/2.c216de7f.chunk.js.map",
+    "index.html": "/url-shortening-api/index.html",
+    "static/css/main.16874204.chunk.css.map": "/url-shortening-api/static/css/main.16874204.chunk.css.map",
+    "static/js/2.c216de7f.chunk.js.LICENSE.txt": "/url-shortening-api/static/js/2.c216de7f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1769030a.js",
+    "static/js/2.c216de7f.chunk.js",
+    "static/css/main.16874204.chunk.css",
+    "static/js/main.4ff53768.chunk.js"
+  ]
+}
