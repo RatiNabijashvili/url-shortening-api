@@ -1,0 +1,38 @@
+.div {
+  text-align: start;
+}
+
+.img-div {
+  background-color: hsl(257, 27%, 26%);
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 2.5em;
+}
+
+.p {
+  color: hsl(257, 7%, 63%);
+  width: 70%;
+}
+
+@media (min-width: 1700px) {
+  .img-div {
+    width: 6em;
+    height: 6em;
+  }
+  .img {
+    height: 4em;
+  }
+  .h2 {
+    font-size: 2rem;
+  }
+  .p {
+    font-size: 1.3rem;
+  }
+}

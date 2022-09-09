@@ -1,0 +1,32 @@
+.div {
+  position: relative;
+  top: 10em;
+  width: 100%;
+  height: 15em;
+  background-color: hsl(257, 27%, 26%);
+}
+
+.img {
+  width: 100%;
+  height: 15em;
+  position: absolute;
+}
+
+.text {
+  position: relative;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 1700px) {
+  .h2 {
+    font-size: 2rem;
+  }
+}

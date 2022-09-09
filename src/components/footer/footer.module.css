@@ -1,0 +1,50 @@
+.div {
+  position: relative;
+  top: 10em;
+  width: 100%;
+  height: 20em;
+  background-color: hsl(260, 8%, 14%);
+  color: hsl(0, 0%, 100%);
+}
+
+.responsive {
+  position: relative;
+  top: 5em;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.svg {
+  fill: hsl(0, 0%, 100%);
+}
+.comps {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+}
+
+.icon {
+  fill: hsl(0, 0%, 100%);
+  width: 5em;
+  height: 5em;
+}
+
+.icon:hover {
+  fill: hsl(180, 66%, 49%);
+  cursor: pointer;
+}
+
+@media (min-width: 1700px) {
+  .responsive {
+    width: 60%;
+  }
+}

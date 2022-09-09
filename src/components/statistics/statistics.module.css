@@ -1,0 +1,42 @@
+.div {
+  position: relative;
+  width: 100%;
+  margin-top: 10em;
+}
+
+.responsive {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.h2 {
+  color: hsl(260, 8%, 14%);
+}
+
+.p {
+  color: hsl(257, 7%, 63%);
+}
+
+.comps {
+  position: relative;
+  display: flex;
+  margin-top: 6em;
+}
+
+@media (min-width: 1700px) {
+  .responsive {
+    width: 60%;
+  }
+  .h2 {
+    font-size: 3rem;
+  }
+  .p {
+    font-size: 1.5rem;
+  }
+}

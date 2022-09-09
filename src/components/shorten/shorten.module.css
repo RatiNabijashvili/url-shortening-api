@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+.div {
+  position: relative;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.responsive {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.img {
+  position: absolute;
+  background-color: hsl(257, 27%, 26%);
+  width: 80%;
+  height: 100%;
+  border-radius: 15px;
+  height: 10em;
+}
+
+.input-div {
+  width: 80%;
+  padding: 3em 0;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  position: relative;
+  border-radius: 10px;
+  border: 0;
+  width: 80%;
+  height: 3em;
+  padding-left: 2em;
+  outline: 0;
+}
+
+.button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  position: relative;
+  border: 0;
+  border-radius: 5px;
+  width: 15%;
+  background-color: hsl(180, 66%, 49%);
+  color: hsl(0, 0%, 100%);
+}
+
+.button:hover {
+  background-color: hsl(180, 66%, 70%);
+  cursor: pointer;
+}
+
+.link-container {
+  position: relative;
+  display: flex;
+  margin-top: 1.5em;
+}
+
+.ul {
+  position: relative;
+  padding: 0.5em 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.li-div {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+  justify-content: right;
+}
+
+.li {
+  color: hsl(180, 66%, 49%);
+}
+
+.btn {
+  background-color: hsl(180, 66%, 49%);
+  color: hsl(0, 0%, 100%);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  width: 8em;
+  height: 2.3em;
+  border: none;
+  border-radius: 5px;
+  margin-left: 1em;
+}
+
+.copied-button {
+  background-color: hsl(257, 27%, 26%);
+}
+
+.btn:hover {
+  background-color: hsl(180, 66%, 70%);
+  cursor: pointer;
+}
+
+.span {
+  color: hsl(257, 27%, 26%);
+  margin-right: 1em;
+}
+
+@media (min-width: 1700px) {
+  .responsive {
+    width: 60%;
+  }
+  .img {
+    width: 60%;
+  }
+  .li {
+    font-size: 2rem;
+  }
+}
