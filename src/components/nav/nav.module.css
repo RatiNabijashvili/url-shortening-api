@@ -56,9 +56,6 @@
 }
 
 @media (min-width: 1700px) {
-  .responsive {
-    width: 60%;
-  }
   .img {
     height: 3em;
   }
@@ -68,5 +65,32 @@
   }
   .h2 {
     font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .img {
+    height: 2.2em;
+  }
+  .li {
+    font-size: 1.2rem;
+  }
+  .h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 2200px) {
+  .responsive {
+    margin-top: 2em;
+  }
+  .img {
+    height: 3.5em;
+  }
+  .li {
+    font-size: 1.7rem;
+  }
+  .h2 {
+    font-size: 1.8rem;
   }
 }

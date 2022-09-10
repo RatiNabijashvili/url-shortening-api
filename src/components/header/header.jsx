@@ -12,8 +12,8 @@ const header = () => {
             More than just <br /> shorter links
           </h2>
           <p className={Styles.p}>
-            Build your brand’s recognition and get detailed insights on how your
-            links are performing.
+            Build your brand’s recognition and get detailed insights on how
+            <br /> your links are performing.
           </p>
           <Button title='Get Sarted' />
         </div>

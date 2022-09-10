@@ -17,3 +17,12 @@
   color: hsl(180, 66%, 49%);
   cursor: pointer;
 }
+
+@media (min-width: 2200px) {
+  .span {
+    font-size: 1.2rem;
+  }
+  .li {
+    font-size: 1rem;
+  }
+}

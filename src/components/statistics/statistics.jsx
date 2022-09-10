@@ -12,8 +12,8 @@ const statistics = () => {
         <div className={Styles.text}>
           <h2 className={Styles.h2}>Advanced Statistics</h2>
           <p className={Styles.p}>
-            Track how your links are performing across the web with our advanced
-            statistics dashboard.
+            Track how your links are performing across the web with our <br />{' '}
+            advanced statistics dashboard.
           </p>
         </div>
         <div className={Styles.comps}>
