@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../button/button'
 import Styles from './header.module.css'
+import Img from './img/illustration-working.svg'
 
 const header = () => {
   return (
@@ -16,7 +17,7 @@ const header = () => {
           </p>
           <Button title='Get Sarted' />
         </div>
-        <img src='/images/illustration-working.svg' className={Styles.img} />
+        <img src={Img} className={Styles.img} />
       </div>
     </header>
   )

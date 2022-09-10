@@ -1,6 +1,9 @@
 import React from 'react'
 import StatiscsComps from './statisticsComps/statiscsComps'
 import Styles from './statistics.module.css'
+import RecognitionLogo from './img/icon-brand-recognition.svg'
+import RecordsLogo from './img/icon-detailed-records.svg'
+import CustomizableLogo from './img/icon-fully-customizable.svg'
 
 const statistics = () => {
   return (
@@ -15,18 +18,18 @@ const statistics = () => {
         </div>
         <div className={Styles.comps}>
           <StatiscsComps
-            img='/images/icon-brand-recognition.svg'
+            img={RecognitionLogo}
             title='Brand Recognition'
             paragraph='Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.'
             offset='-3em'
           />
           <StatiscsComps
-            img='/images/icon-detailed-records.svg'
+            img={RecordsLogo}
             title='Detailed Records'
             paragraph='Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.'
           />
           <StatiscsComps
-            img='/images/icon-fully-customizable.svg'
+            img={CustomizableLogo}
             title='Fully Customizable'
             paragraph='mprove brand awareness and content discoverability through customizable links, supercharging audience engagement.'
             offset='3em'

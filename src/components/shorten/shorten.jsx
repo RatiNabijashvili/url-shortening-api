@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Styles from './shorten.module.css'
+import Img from './img/bg-shorten-desktop.svg'
 
 const copyLink = (e, link) => {
   navigator.clipboard.writeText(link)
@@ -46,7 +47,7 @@ const Shorter = () => {
   return (
     <div className={Styles.div}>
       <div className={Styles.responsive}>
-        <img src='/images/bg-shorten-desktop.svg' className={Styles.img} />
+        <img src={Img} className={Styles.img} />
         <div className={Styles['input-div']}>
           <input
             type='text'

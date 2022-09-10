@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../button/button.jsx'
 import Styles from './nav.module.css'
+import Logo from './logo/logo.svg'
 
 const nav = () => {
   return (
@@ -8,7 +9,7 @@ const nav = () => {
       <div className={Styles.responsive}>
         <div className={Styles.div}>
           <ul className={Styles.ul}>
-            <img src='/images/logo.svg' className={Styles.img} />
+            <img src={Logo} className={Styles.img} />
             <li className={Styles.li}>Features</li>
             <li className={Styles.li}>Pricing</li>
             <li className={Styles.li}>Resources</li>
